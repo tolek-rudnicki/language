@@ -15,7 +15,7 @@ def inst():
     
 
 
-a = input("This script is only for linux that has github installed! press Y to proceede and N to cancle")
+a = input("This script is only for linux that has github installed! do you want to install Y/N")
 if a == 'N':
     print("cancelling!")
 else:
