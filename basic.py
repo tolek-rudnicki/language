@@ -1,5 +1,5 @@
 import sys
-
+repeate = "yes"
 def numOperation():
     a = input("Please separate numbers from the operation with spaces \n")
     b = a.split(" ")
@@ -22,4 +22,5 @@ def listen():
         numOperation()
     if cmd == "exit()":
         sys.exit()
+        repeate = "no"
     
