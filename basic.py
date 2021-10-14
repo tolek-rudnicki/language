@@ -20,7 +20,6 @@ def listen():
     cmd = input("basic > ")
     if cmd == "math":
         numOperation()
-    else: 
-        if cmd == "exit()":
-            sys.exit()
+    if cmd == "exit()":
+        sys.exit()
     
